@@ -12,9 +12,14 @@ ul {
 }
 
 li {
-  display: block;
+  display: inline;
 }
 
 img {
   margin: auto;
+  display: block;
+}
+
+.footnote {
+  text-align: center;
 }
