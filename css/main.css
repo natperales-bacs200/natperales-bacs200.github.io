@@ -1,5 +1,5 @@
 :root {
-  background-color: ();
+  background-color: lightgrey;
 }
 
 .title {
@@ -13,6 +13,8 @@ ul {
 
 li {
   display: inline;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 img {
