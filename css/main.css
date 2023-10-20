@@ -1,10 +1,16 @@
 :root {
-  background-color: lightgrey;
+  background-color: snow;
+  --tealblue: #398ea8;
 }
 
 .title {
+  color: midnightblue;
   font-size: 36pt;
   text-align: center;
+}
+
+h2 {
+  color: var(--tealblue;
 }
 
 ul {
@@ -13,8 +19,8 @@ ul {
 
 li {
   display: inline;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 img {
@@ -22,6 +28,18 @@ img {
   display: block;
 }
 
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home {
+  margin: 5px;
+  color: azure;
+  background-color: var(--tealblue);
+}
+
 .footnote {
   text-align: center;
+  margin-top: 100px;
 }
