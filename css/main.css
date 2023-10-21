@@ -16,7 +16,8 @@ h2, h3 {
 
 p {
   width: 700px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
@@ -35,6 +36,7 @@ img, iframe {
 }
 
 .home {
+  display: inline-block;
   color: snow;
   background-color: var(--tealblue);
   padding: 5px;
