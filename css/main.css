@@ -1,10 +1,15 @@
 :root {
-  background-color: snow;
+  background-color: lightcyan;
 }
 
 .title {
   color: midnightblue;
   font-size: 36pt;
+  text-align: center;
+}
+
+h2, h3 {
+  color: midnightblue;
   text-align: center;
 }
 
@@ -24,7 +29,7 @@ img {
 }
 
 p {
-  width: "700px";
+  text-align: center;
 }
 
 .home {
