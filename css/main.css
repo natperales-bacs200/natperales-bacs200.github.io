@@ -1,5 +1,5 @@
 :root {
-  background-color: lightgrey;
+  background-color: snow;
 }
 
 .title {
@@ -21,6 +21,16 @@ li {
 img {
   margin: auto;
   display: block;
+}
+
+p {
+  width: "700px";
+}
+
+.home {
+  background-color: #3ea3a8;
+  margin: 5px;
+  text-align: center;
 }
 
 .footnote {
