@@ -9,7 +9,7 @@
 }
 
 h2, h3 {
-  color: midnightblue;
+  color: #3ea3a8;
   text-align: center;
 }
 
@@ -23,18 +23,20 @@ li {
   margin-right: 2vw;
 }
 
-img {
+img, iframe {
   margin: auto;
   display: block;
 }
 
 p {
+  width: 700px;
   text-align: center;
 }
 
 .home {
+  color: snow;
   background-color: #3ea3a8;
-  margin: 5px;
+  padding: 5px;
   text-align: center;
 }
 
