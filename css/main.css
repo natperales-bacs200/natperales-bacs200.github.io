@@ -1,5 +1,6 @@
 :root {
   background-color: lightcyan;
+  --tealblue: #3ea3a8;
 }
 
 .title {
@@ -9,8 +10,13 @@
 }
 
 h2, h3 {
-  color: #3ea3a8;
+  color: var(--tealblue);
   text-align: center;
+}
+
+p {
+  width: 700px;
+  margin: auto;
 }
 
 ul {
@@ -28,14 +34,9 @@ img, iframe {
   display: block;
 }
 
-p {
-  width: 700px;
-  margin: auto;
-}
-
 .home {
   color: snow;
-  background-color: #3ea3a8;
+  background-color: var(--tealblue);
   padding: 5px;
   text-align: center;
 }
