@@ -42,6 +42,7 @@ ul {
 
 #contactinfo {
   border: none;
+  margin-top: 5px;
 }
 #contactinfo ul {
   padding-top: 0px;
