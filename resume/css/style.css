@@ -3,11 +3,16 @@
 }
 
 h1 {
-  font-size: 36pt;
+  font-size: 24pt;
+}
+
+nav {
+  display: inline-block;
 }
 
 section {
-  border: 5px grey;
+  border: 5px blue solid;
+  margin: 5px;
 }
 
 ul {
