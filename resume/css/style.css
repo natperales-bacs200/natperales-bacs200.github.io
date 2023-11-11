@@ -9,7 +9,7 @@
 
 h1 {
   font-size: 24pt;
-  color: aquamarine;
+  color: navy;
 }
 
 nav li{
@@ -19,7 +19,7 @@ nav li{
 }
 
 section {
-  border: 5px midnightblue solid;
+  border: 5px steelblue solid;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -31,13 +31,17 @@ ul {
   padding-left: 0px;
 }
 
+img {
+  float: left;
+}
+
 .subheading {
   color: var(--tealblue);
 }
   
 .date {
   display: block;
-  color: var(--tealblue);
+  color: steelblue;
 }
 
 #contactinfo {
