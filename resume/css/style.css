@@ -6,14 +6,15 @@ h1 {
   font-size: 24pt;
 }
 
-nav {
+nav ul{
   display: inline;
 }
 
 section {
   border: 5px blue solid;
-  margin: 5px;
-  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
   width: 50vw;
 }
 
@@ -22,6 +23,14 @@ ul {
   padding-left: 0px;
 }
 
+.date {
+  display: block;
+  color: pink;
+}
+
 #contactinfo {
   border: none;
+}
+#contactinfo ul {
+  padding-top: 0px;
 }
