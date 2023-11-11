@@ -7,15 +7,21 @@ h1 {
 }
 
 nav {
-  display: inline-block;
+  display: inline;
 }
 
 section {
   border: 5px blue solid;
   margin: 5px;
+  margin-top: 5px;
+  width: 50vw;
 }
 
 ul {
   list-style: none;
   padding-left: 0px;
+}
+
+#contactinfo {
+  border: none;
 }
