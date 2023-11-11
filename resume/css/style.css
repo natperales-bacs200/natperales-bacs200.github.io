@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 36pt;
+}
+
+section {
+  border: 5px;
+}
+
 ul {
   list-style: none;
   padding-left: 0px;
