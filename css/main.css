@@ -3,6 +3,26 @@
   --tealblue: #3ea3a8;
 }
 
+body {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  grid-template-areas: "head" "main" "foot"
+}
+
+header, main, foot {
+  text-align: center;
+}
+header {
+  grid-area: head;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: foot;
+}
+
 .title {
   color: midnightblue;
   font-size: 36pt;
