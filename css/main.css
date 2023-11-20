@@ -23,6 +23,11 @@ footer {
   grid-area: foot;
 }
 
+nav {
+  text-align: center;
+}
+
+<!--Original CSS outside of :root-->
 .title {
   color: midnightblue;
   font-size: 36pt;
