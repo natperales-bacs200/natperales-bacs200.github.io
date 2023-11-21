@@ -25,6 +25,12 @@ footer {
 
 nav {
   text-align: center;
+  margin-top: 12px;
+}
+nav a {
+  font-size: larger;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 <!--Original CSS outside of :root-->
