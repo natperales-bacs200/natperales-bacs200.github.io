@@ -48,6 +48,7 @@ h2, h3 {
 
 p {
   width: 700px;
+  text-align: justify;
   margin-left: auto;
   margin-right: auto;
 }
@@ -68,11 +69,12 @@ img, iframe {
 }
 
 .home {
-  display: inline-block;
+  /*display: inline-block;*/
+  text-align: center;
   color: snow;
   background-color: var(--tealblue);
   padding: 5px;
-  text-align: centere;
+  margin-top: 80vh;
 }
 
 .footnote {
