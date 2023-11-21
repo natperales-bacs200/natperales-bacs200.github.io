@@ -23,11 +23,11 @@ footer {
   grid-area: foot;
 }
 
-nav {
+.nav {
   text-align: center;
   margin-top: 12px;
 }
-nav a {
+.nav a {
   font-size: larger;
   margin-left: 10px;
   margin-right: 10px;
@@ -71,7 +71,7 @@ img, iframe {
   color: snow;
   background-color: var(--tealblue);
   padding: 5px;
-  text-align: center;
+  text-align: centere;
 }
 
 .footnote {
