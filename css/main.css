@@ -21,19 +21,20 @@ main {
 }
 footer {
   grid-area: foot;
+  margin-top: 50px;
 }
 
 .nav {
   text-align: center;
-  margin-top: 12px;
+  margin-top: 25px;
 }
 .nav a {
-  font-size: larger;
+  font-size: large;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-<!--Original CSS outside of :root-->
+<!--Original CSS aside of root - media queries aren't original-->
 .title {
   color: midnightblue;
   font-size: 36pt;
