@@ -10,7 +10,7 @@ body {
   grid-template-areas: "head" "main" "foot"
 }
 
-header, main, foot {
+header, main, footer {
   text-align: center;
 }
 header {
