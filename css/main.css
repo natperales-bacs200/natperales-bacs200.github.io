@@ -85,11 +85,11 @@ img, iframe {
   text-align: center;
 }
 
-@media all and (min-width: 300px) {
+@media all and (max-width: 400px) {
   p {
     /*width: 20vw;*/
-    margin-left: 25px;
-    margin-right: 25px;
-    /*width: 250px;*/
+    width: 250px;
     /*width: 80vw;*/
   }
+
+  
