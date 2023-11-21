@@ -70,11 +70,12 @@ img, iframe {
 
 .home {
   /*display: inline-block;*/
+  width: 20px;
   text-align: center;
   color: snow;
   background-color: var(--tealblue);
   padding: 5px;
-  margin-top: 80vh;
+  margin-bottom: 20vh;
 }
 
 .footnote {
