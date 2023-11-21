@@ -21,7 +21,8 @@ main {
 }
 footer {
   grid-area: foot;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 
 .nav {
