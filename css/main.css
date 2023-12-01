@@ -5,14 +5,15 @@
 
 body {
   display: grid;
-  /*justify-content: center;*/
+  justify-content: center;
   grid-gap: 20px;
   grid-template-columns: auto;
   grid-template-areas: "head" "main" "foot"
 }
 
 header, main, footer {
-  text-align: center;
+  /*text-align: center; - testing to see if "justify-content udner body has same affect as this, can 
+  take this out then*/
 }
 header {
   grid-area: head;
@@ -94,4 +95,7 @@ img, iframe {
 
 /* Mobile - portrait focused - if it works for landscape too then good */
 @media screen and (min-width: 480px) {
+  .nav a {
+    display: list-item;
+}
   
