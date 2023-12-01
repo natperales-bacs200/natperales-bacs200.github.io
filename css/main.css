@@ -12,7 +12,7 @@ body {
 }
 
 header, main, footer {
-  /*text-align: center;*/
+  text-align: center;
 }
 header {
   grid-area: head;
@@ -50,7 +50,7 @@ h2, h3 {
 
 p {
   width: 700px;
-  /*text-align: justify;*/
+  text-align: justify;
   margin-left: auto;
   margin-right: auto;
 }
@@ -86,10 +86,12 @@ img, iframe {
 }
 
 /* Tablet */
-@media all and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   body {
     grid-template-columns: auto;
   }
 }
 
+/* Mobile - portrait focused - if it works for landscape too then good */
+@media screen and (min-width: 480px) {
   
