@@ -12,7 +12,7 @@ body {
 }
 
 header, main, footer {
-  text-align: center;
+  /*text-align: center;*/
 }
 header {
   grid-area: head;
