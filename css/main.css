@@ -39,7 +39,7 @@ footer {
 <!--Original CSS aside of root - media queries aren't original-->
 .title {
   color: midnightblue;
-  font-size: 36pt;
+  font-size: 40pt;
   text-align: center;
 }
 
@@ -87,9 +87,11 @@ img, iframe {
 
 /* Tablet */
 @media screen and (max-width: 600px) {
-  body {
-    grid-template-columns: auto;
-  }
+  .nav a {
+    display: list-item;
+    list-style-type: none;
+    margin-top: 30px;
+  } 
 }
 
 /* Mobile - portrait focused - if it works for landscape too then good */
@@ -98,5 +100,6 @@ img, iframe {
     display: list-item;
     list-style-type: none;
     margin-top: 20px;
+  }
 }
   
