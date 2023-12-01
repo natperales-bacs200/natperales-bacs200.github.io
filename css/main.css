@@ -12,8 +12,7 @@ body {
 }
 
 header, main, footer {
-  /*text-align: center; - testing to see if "justify-content udner body has same affect as this, can 
-  take this out then*/
+  text-align: center; 
 }
 header {
   grid-area: head;
@@ -87,15 +86,17 @@ img, iframe {
 }
 
 /* Tablet */
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     grid-template-columns: auto;
   }
 }
 
 /* Mobile - portrait focused - if it works for landscape too then good */
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .nav a {
     display: list-item;
+    list-style-type: none;
+    margin-top: 20px;
 }
   
