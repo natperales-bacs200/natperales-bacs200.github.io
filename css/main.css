@@ -16,11 +16,11 @@ header, main, footer {
 }
 header {
   grid-area: head;
-  border: 2px purple solid;
+  border: 3px purple solid;
 }
 main {
   grid-area: main;
-  border: 2px green solid;
+  border: 3px lightgreen solid;
 }
 footer {
   grid-area: foot;
@@ -52,10 +52,10 @@ h2, h3 {
 
 p {
   /*width: 700px;*/
-  max-width: 700px;
-  text-align: justify;
+  /*max-width: 700px;*/
+  /*text-align: justify;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 
 ul {
@@ -81,6 +81,7 @@ section {
 .container {
   border: 2px steelblue solid;
   max-width: 700px;
+  padding: 5px;
   margin-bottom: 20px;
 }
 
