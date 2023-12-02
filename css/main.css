@@ -12,7 +12,7 @@ body {
 }
 
 header, main, footer {
-  text-align: center; 
+  /*text-align: center; */
 }
 header {
   grid-area: head;
@@ -31,6 +31,7 @@ footer {
 .nav {
   text-align: center;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 .nav a {
   font-size: large;
@@ -51,10 +52,8 @@ h2, h3 {
 }
 
 p {
-  /*width: 700px;*/
-  /*max-width: 700px;*/
-  /*text-align: justify;
-  margin-left: auto;
+  text-align: justify;
+  /*margin-left: auto;
   margin-right: auto;*/
 }
 
@@ -73,16 +72,12 @@ img, iframe {
   display: block;
 }
 
-section {
-  border: 2px steelblue solid; 
-  width: 80%;
-  margin-bottom: 20px;
-}
 .container {
   border: 2px steelblue solid;
   max-width: 700px;
   padding: 5px;
   margin-bottom: 20px;
+  margin: auto;
 }
 
 .home {
