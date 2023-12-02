@@ -16,9 +16,11 @@ header, main, footer {
 }
 header {
   grid-area: head;
+  border: 2px purple solid;
 }
 main {
   grid-area: main;
+  border: 2px green solid;
 }
 footer {
   grid-area: foot;
@@ -49,7 +51,8 @@ h2, h3 {
 }
 
 p {
-  width: 700px;
+  /*width: 700px;*/
+  max-width: 700px;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
@@ -73,6 +76,11 @@ img, iframe {
 section {
   border: 2px steelblue solid; 
   width: 80%;
+  margin-bottom: 20px;
+}
+.container {
+  border: 2px steelblue solid;
+  max-width: 700px;
   margin-bottom: 20px;
 }
 
