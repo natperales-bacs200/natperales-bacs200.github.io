@@ -16,11 +16,11 @@ body {
 
 header {
   grid-area: head;
-  border: 3px purple solid;
+  /*border: 3px purple solid;*/
 }
 main {
   grid-area: main;
-  border: 3px lightgreen solid;
+  /*border: 3px lightgreen solid;*/
 }
 footer {
   grid-area: foot;
@@ -57,7 +57,7 @@ img, iframe {
 }
 
 .container {
-  border: 2px steelblue solid;
+  /*border: 2px steelblue solid;*/
   max-width: 650px;
   padding-left: 20px;
   padding-right: 20px;
