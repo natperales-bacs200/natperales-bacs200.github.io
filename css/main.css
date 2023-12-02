@@ -32,8 +32,8 @@ footer {
 }
 .nav a {
   font-size: large;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 <!--Original CSS aside of root - media queries aren't original-->
@@ -70,6 +70,11 @@ img, iframe {
   display: block;
 }
 
+section {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
 .home {
   width: 100px;
   text-align: center;
@@ -86,7 +91,7 @@ img, iframe {
 }
 
 /* Tablet */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .nav a {
     display: list-item;
     list-style-type: none;
