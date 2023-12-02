@@ -71,6 +71,7 @@ img, iframe {
 }
 
 section {
+  border: 2px steelblue solid; 
   width: 80%;
   margin-bottom: 20px;
 }
